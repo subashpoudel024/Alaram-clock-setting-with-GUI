@@ -45,7 +45,7 @@ def run():                        #-------------------This function is called in
             try:
                 if localtime().tm_hour == int(txt_hour.get()) and localtime().tm_min == int(txt_minute.get()) and localtime().tm_sec == int(txt_second.get()):
                     clear()
-                    startfile('"E:\Songs\Aerosmith - Amazing.mp3"')
+                    startfile('"E:\Songs\Aerosmith - Amazing.mp3"') #Song varies along with devices and drives.
                     break
 
                 else:
